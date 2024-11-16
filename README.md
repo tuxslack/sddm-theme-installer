@@ -1,5 +1,7 @@
-## Usage
-1. Edit `$NAME`, `$DIR`, and `$CFG` where needed
-2. Run `./install.sh` from the root your your theme directory
+## Uso
 
-The install script moves the theme folder by default to `/usr/share/sddm/themes/$NAME` and modifies `/etc/sddm.conf` to set this theme as the Current theme. If `/etc/sddm.conf` file does not exists, the user will be prompted to automatically create one based on currently active settings. The user will be prompted to disable SDDM's virtual keyboard if it is enabled, because it is not well supported by the theme, and it is for some reason enabled in SDDM by default. After this, the script will suggest to test the theme. You can also manually move the files to the correct location. If you use KDE Plasma, you can set the new theme in System Settings → Startup and Shutdown → Login Screen (SDDM).
+1. Edite `$NAME`, `$DIR` e `$CFG` quando necessário
+2. Execute `./install.sh` na raiz do diretório do seu tema
+
+O script de instalação move a pasta do tema por padrão para `/usr/share/sddm/themes/$NAME` e modifica `/etc/sddm.conf` para definir este tema como o tema atual. Se o arquivo `/etc/sddm.conf` não existir, o usuário será solicitado a criar um automaticamente com base nas configurações ativas no momento. O usuário será solicitado a desabilitar o teclado virtual do SDDM se estiver habilitado, porque ele não é bem suportado pelo tema e, por algum motivo, está habilitado no SDDM por padrão. Depois disso, o script sugerirá testar o tema. Você também pode mover manualmente os arquivos para o local correto. Se você usa o KDE Plasma, pode definir o novo tema em Configurações do Sistema → Inicialização e Desligamento → Tela de Login (SDDM).
+
